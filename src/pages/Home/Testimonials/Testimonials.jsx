@@ -14,7 +14,7 @@ const Testimonials = () => {
   useEffect(() => {
     // fetch("reviews.json")
 
-    fetch("http://localhost:5000/review")
+    fetch("https://bistro-back.vercel.app/review")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);

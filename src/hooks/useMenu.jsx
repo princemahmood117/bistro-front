@@ -21,6 +21,7 @@ const useMenu = () => {
     //         setLoading(false)
     //     })
     // },[])
+    
     const axiosPublic = useAxiosPublic()
     
     const {data:menu = [], isPending:loading,refetch} = useQuery({
